@@ -34,5 +34,6 @@ http://localhost:8080/picture
 # Everyone can access the page
 http://localhost:8080/public
 
-# This action will be protected by a HTTP Basic access authentication and print "Welcome, authenticated client" if you are authorized with the login admin and password admin otherwise it will provide a 401 Not authorized.
+# Private Access
+This action will be protected by a HTTP Basic access authentication and print "Welcome, authenticated client" if you are authorized with the login admin and password admin otherwise it will provide a 401 Not authorized.
 http://localhost:8080/protected
